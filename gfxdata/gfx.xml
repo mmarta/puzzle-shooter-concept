@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="png/gfx-pal.png" type="png" tile-width="8" tile-height="8" />
+    <output file="gfxdata/tiles.inc">
+        <tiles var-name="tiles" />
+        <maps pointers-size="8">
+            <map var-name="mapPlayerA" left="0" top="2" width="2" height="2" />
+            <map var-name="mapPlayerB" left="2" top="2" width="2" height="2" />
+
+                        <map var-name="mapPlayerTwist25" left="4" top="2" width="2" height="2" />
+                        <map var-name="mapPlayerTwist50X" left="10" top="2" width="2" height="2" />
+                        <map var-name="mapPlayerTwist50Y" left="16" top="2" width="2" height="2" />
+                        <map var-name="mapPlayerTwist75" left="22" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist25A" left="6" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist25B" left="8" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist50A" left="12" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist50B" left="14" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist50C" left="18" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist50D" left="20" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist75A" left="24" top="2" width="2" height="2" />
+            <map var-name="mapPlayerTwist75B" left="26" top="2" width="2" height="2" />
+        </maps>
+    </output>
+</gfx-xform>
